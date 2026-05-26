@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background with soft pink gradient -->
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FFF0E8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFF8F0" stop-opacity="1"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGlow)"/>
+  <ellipse cx="200" cy="375" rx="170" ry="10" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- ===== BIG HEART at top ===== -->
+  <g transform="translate(200 75)">
+    <!-- Heart glow -->
+    <path d="M 0 25
+             C -30 -10 -75 5 -45 45
+             C -25 70 0 90 0 90
+             C 0 90 25 70 45 45
+             C 75 5 30 -10 0 25 Z"
+          fill="#FF8FAA" opacity="0.3" transform="scale(1.15)"/>
+    <!-- Heart -->
+    <path d="M 0 25
+             C -30 -10 -75 5 -45 45
+             C -25 70 0 90 0 90
+             C 0 90 25 70 45 45
+             C 75 5 30 -10 0 25 Z"
+          fill="#E63946" stroke="#A02029" stroke-width="3"/>
+    <!-- Highlight shine -->
+    <ellipse cx="-20" cy="20" rx="10" ry="18" fill="#FFB3C1" opacity="0.7" transform="rotate(-25 -20 20)"/>
+    <ellipse cx="-25" cy="15" rx="4" ry="8" fill="white" opacity="0.8" transform="rotate(-25 -25 15)"/>
+  </g>
+
+  <!-- Sparkles around the heart -->
+  <g fill="#FFCC00" stroke="#C99A00" stroke-width="1">
+    <path d="M 100 50 L 102 56 L 108 56 L 103 60 L 105 66 L 100 62 L 95 66 L 97 60 L 92 56 L 98 56 Z"/>
+    <path d="M 300 55 L 302 61 L 308 61 L 303 65 L 305 71 L 300 67 L 295 71 L 297 65 L 292 61 L 298 61 Z"/>
+    <path d="M 130 130 L 132 134 L 136 134 L 133 137 L 134 141 L 130 138 L 126 141 L 127 137 L 124 134 L 128 134 Z"/>
+    <path d="M 270 130 L 272 134 L 276 134 L 273 137 L 274 141 L 270 138 L 266 141 L 267 137 L 264 134 L 268 134 Z"/>
+    <circle cx="70" cy="100" r="2"/>
+    <circle cx="330" cy="100" r="2"/>
+    <circle cx="55" cy="180" r="2"/>
+    <circle cx="345" cy="180" r="2"/>
+  </g>
+
+  <!-- Small floating hearts -->
+  <g>
+    <path d="M 50 250 C 47 245 42 247 45 252 C 47 254 50 257 50 257 C 50 257 53 254 55 252 C 58 247 53 245 50 250 Z"
+          fill="#FFB3C1" stroke="#E63946" stroke-width="1.5"/>
+    <path d="M 350 240 C 347 235 342 237 345 242 C 347 244 350 247 350 247 C 350 247 353 244 355 242 C 358 237 353 235 350 240 Z"
+          fill="#FFB3C1" stroke="#E63946" stroke-width="1.5"/>
+    <path d="M 30 300 C 28 297 24 298 26 301 C 27 303 30 305 30 305 C 30 305 33 303 34 301 C 36 298 32 297 30 300 Z"
+          fill="#FFB3C1" stroke="#E63946" stroke-width="1.2"/>
+    <path d="M 370 305 C 368 302 364 303 366 306 C 367 308 370 310 370 310 C 370 310 373 308 374 306 C 376 303 372 302 370 305 Z"
+          fill="#FFB3C1" stroke="#E63946" stroke-width="1.2"/>
+  </g>
+
+  <!-- ===== EMBRACE: Girl on left, baby on right, hugging tight ===== -->
+
+  <!-- Shared legs/feet at bottom (close together) -->
+  <g>
+    <!-- Girl's feet -->
+    <ellipse cx="135" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="165" cy="372" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <!-- Baby's feet -->
+    <ellipse cx="240" cy="372" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="270" cy="370" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+  </g>
+
+  <!-- Girl's legs -->
+  <rect x="128" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+  <rect x="158" y="347" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+  <!-- Baby's legs -->
+  <rect x="234" y="347" width="13" height="22" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+  <rect x="264" y="345" width="13" height="22" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+  <!-- ===== GIRL body + arms around baby ===== -->
+  <g>
+    <!-- Body (dress) -->
+    <path d="M 115 295 Q 105 345 120 358 L 175 358 Q 180 345 175 295 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 120 356 Q 130 363 140 356 Q 150 363 160 356 Q 170 363 175 358" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <path d="M 125 295 Q 145 303 165 295" fill="none" stroke="#C76B9C" stroke-width="2.5"/>
+    <circle cx="145" cy="305" r="3.5" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+  </g>
+
+  <!-- ===== BABY body ===== -->
+  <g>
+    <!-- Body (onesie) -->
+    <path d="M 225 295 Q 215 345 230 358 L 285 358 Q 290 345 285 295 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <line x1="257" y1="305" x2="257" y2="355" stroke="#3A6FA8" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="257" cy="315" r="2.5" fill="#3A6FA8"/>
+    <circle cx="257" cy="340" r="2.5" fill="#3A6FA8"/>
+  </g>
+
+  <!-- ===== ARMS WRAPPING ===== -->
+  <!-- Girl's right arm going around baby's back -->
+  <path d="M 170 290 Q 230 270 285 280 Q 300 282 295 295" fill="none" stroke="#D4A373" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 170 290 Q 230 270 285 280 Q 300 282 295 295" fill="none" stroke="#C76B9C" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Girl's hand on baby's back -->
+  <circle cx="293" cy="298" r="11" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+  <!-- Girl's left arm hanging -->
+  <ellipse cx="108" cy="310" rx="11" ry="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-10 108 310)"/>
+  <circle cx="102" cy="335" r="10" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+  <!-- Baby's left arm wrapping around girl -->
+  <path d="M 230 295 Q 175 275 115 285 Q 105 288 110 298" fill="none" stroke="#D4A373" stroke-width="16" stroke-linecap="round"/>
+  <path d="M 230 295 Q 175 275 115 285 Q 105 288 110 298" fill="none" stroke="#3A6FA8" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Baby's hand on girl's back -->
+  <circle cx="112" cy="302" r="10" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+  <!-- Baby's right arm relaxed -->
+  <ellipse cx="297" cy="320" rx="11" ry="18" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(15 297 320)"/>
+  <circle cx="305" cy="335" r="9" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+  <!-- ===== HEADS leaning into each other ===== -->
+
+  <!-- GIRL'S HEAD (tilted right, cheek to cheek) -->
+  <g transform="rotate(20 150 215)">
+    <!-- Hair back -->
+    <path d="M 95 225 Q 95 162 150 158 Q 205 162 205 225 Q 205 245 197 255 L 103 255 Q 95 245 95 225 Z" fill="#6B4226"/>
+    <!-- Face -->
+    <circle cx="150" cy="215" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+    <!-- Bangs -->
+    <path d="M 100 193 Q 120 173 150 173 Q 180 173 200 193 Q 190 202 177 198 Q 163 194 150 198 Q 137 194 123 198 Q 110 202 100 193 Z" fill="#6B4226"/>
+    <!-- Both pigtails -->
+    <g transform="translate(83 205) rotate(-15)">
+      <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(217 205) rotate(15)">
+      <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    </g>
+
+    <!-- BLISSFUL face -->
+    <!-- Eyebrows -->
+    <path d="M 117 194 Q 127 190 137 196" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 163 196 Q 173 190 183 194" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <!-- Closed happy eyes -->
+    <path d="M 120 225 Q 130 217 140 225" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 160 225 Q 170 217 180 225" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Eyelashes -->
+    <line x1="121" y1="220" x2="119" y2="217" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="139" y1="220" x2="141" y2="217" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="161" y1="220" x2="159" y2="217" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="179" y1="220" x2="181" y2="217" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Big blush -->
+    <ellipse cx="107" cy="240" rx="12" ry="8" fill="#FFB3B3" opacity="0.85"/>
+    <ellipse cx="193" cy="240" rx="12" ry="8" fill="#FFB3B3" opacity="0.85"/>
+    <!-- Sweet smile -->
+    <path d="M 130 252 Q 150 268 170 252" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- BABY'S HEAD (tilted left, cheek to cheek with girl) -->
+  <g transform="rotate(-20 255 218)">
+    <circle cx="255" cy="218" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+    <!-- Baby hair -->
+    <path d="M 245 165 Q 250 153 255 163 Q 258 156 262 165" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 240 171 Q 247 161 252 171" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 260 173 Q 267 163 272 173" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- BLISSFUL baby face -->
+    <path d="M 228 198 Q 238 194 246 200" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 264 200 Q 272 194 282 198" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <!-- Closed happy eyes (^_^) -->
+    <path d="M 228 220 Q 238 212 248 220" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 262 220 Q 272 212 282 220" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Big rosy cheeks -->
+    <ellipse cx="220" cy="237" rx="12" ry="8" fill="#FFB3B3" opacity="0.85"/>
+    <ellipse cx="290" cy="237" rx="12" ry="8" fill="#FFB3B3" opacity="0.85"/>
+    <!-- HUGE toothy grin with gap -->
+    <path d="M 232 248 Q 255 268 278 248 Q 268 258 255 258 Q 242 258 232 248 Z" fill="#8B2C2C" stroke="#3D2817" stroke-width="2"/>
+    <rect x="259" y="250" width="4" height="6" fill="white"/>
+    <rect x="248" y="250" width="4" height="3" fill="#3D1414" opacity="0.7"/>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">10</text>
+</svg>

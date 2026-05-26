@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF8F0"/>
+  <ellipse cx="200" cy="375" rx="160" ry="10" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- Soft sparkles in middle (the ice is melting) -->
+  <g fill="#FFCC00" stroke="#C99A00" stroke-width="1" opacity="0.7">
+    <path d="M 200 180 L 202 184 L 206 184 L 203 187 L 204 191 L 200 188 L 196 191 L 197 187 L 194 184 L 198 184 Z"/>
+    <circle cx="195" cy="230" r="2" fill="#FFCC00"/>
+    <circle cx="210" cy="220" r="1.5" fill="#FFCC00"/>
+  </g>
+
+  <!-- ===== GIRL (left) - sneaking a peek over her shoulder ===== -->
+  <g>
+    <!-- Legs/feet, still planted in time-out position -->
+    <ellipse cx="80" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="110" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <rect x="73" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+    <rect x="103" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+
+    <!-- Body (dress, mostly back-facing) -->
+    <path d="M 65 285 Q 55 340 60 360 L 135 360 Q 130 340 125 285 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 60 358 Q 70 365 80 358 Q 90 365 100 358 Q 110 365 120 358 Q 130 365 135 360" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <!-- Back bow -->
+    <path d="M 95 295 L 85 290 L 85 305 L 95 300 Z" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    <path d="M 105 295 L 115 290 L 115 305 L 105 300 Z" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    <circle cx="100" cy="297" r="4" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+
+    <!-- Arms -->
+    <ellipse cx="58" cy="305" rx="10" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-8 58 305)"/>
+    <ellipse cx="138" cy="305" rx="10" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(8 138 305)"/>
+
+    <!-- Head turned RIGHT (peeking back over shoulder) -->
+    <!-- Hair back (from this turn angle, hair is on left/back side) -->
+    <path d="M 42 215
+             Q 42 152 90 148
+             Q 130 145 150 175
+             Q 160 195 160 215
+             Q 160 240 150 248
+             L 52 248
+             Q 42 240 42 215 Z"
+          fill="#6B4226"/>
+
+    <!-- Face (turned to right - profile facing RIGHT) -->
+    <circle cx="105" cy="210" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Bangs -->
+    <path d="M 55 188 Q 70 168 100 168 Q 130 168 150 188 Q 143 195 130 192 Q 115 188 105 192 Q 92 188 80 192 Q 65 195 55 188 Z" fill="#6B4226"/>
+
+    <!-- Only LEFT pigtail visible (the one behind/away from the peek direction) -->
+    <g transform="translate(35 200) rotate(-15)">
+      <ellipse cx="0" cy="18" rx="14" ry="26" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="10" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      <path d="M -6 -8 Q -12 -14 -8 -4 Z" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+      <path d="M 6 -8 Q 12 -14 8 -4 Z" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+    </g>
+
+    <!-- Profile face (peeking RIGHT) - curious -->
+    <!-- Raised curious eyebrow -->
+    <path d="M 122 198 Q 132 193 142 198" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <!-- Wide curious eye, glancing right -->
+    <ellipse cx="135" cy="215" rx="8" ry="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+    <circle cx="139" cy="217" r="4" fill="#3D2817"/>
+    <circle cx="140" cy="216" r="1.2" fill="white"/>
+    <!-- Cheek -->
+    <ellipse cx="138" cy="232" rx="9" ry="6" fill="#FFB3B3" opacity="0.5"/>
+    <!-- Small uncertain mouth in profile -->
+    <path d="M 142 247 Q 148 246 152 248" fill="none" stroke="#3D2817" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M 153 227 Q 158 233 151 236" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== BABY BOY (right) - peeking over shoulder back at girl ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="285" cy="370" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="315" cy="370" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="278" y="345" width="13" height="22" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="308" y="345" width="13" height="22" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+    <!-- Body (onesie) -->
+    <path d="M 268 295 Q 260 345 265 360 L 335 360 Q 340 345 333 295 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <line x1="300" y1="305" x2="300" y2="355" stroke="#3A6FA8" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="300" cy="315" r="2.5" fill="#3A6FA8"/>
+    <circle cx="300" cy="340" r="2.5" fill="#3A6FA8"/>
+
+    <!-- Arms -->
+    <ellipse cx="260" cy="310" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(-5 260 310)"/>
+    <ellipse cx="340" cy="310" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(5 340 310)"/>
+
+    <!-- Head turned LEFT (peeking back) -->
+    <circle cx="295" cy="215" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Baby hair -->
+    <path d="M 290 162 Q 295 150 300 160 Q 303 153 307 162" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 285 168 Q 292 158 297 168" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 300 170 Q 307 160 312 170" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Profile face (facing LEFT) - curious -->
+    <!-- Raised curious eyebrow -->
+    <path d="M 258 198 Q 268 193 278 198" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <!-- Big curious eye glancing left -->
+    <ellipse cx="265" cy="215" rx="8" ry="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+    <circle cx="261" cy="217" r="4" fill="#3D2817"/>
+    <circle cx="260" cy="216" r="1.2" fill="white"/>
+    <!-- Cheek -->
+    <ellipse cx="262" cy="232" rx="9" ry="6" fill="#FFB3B3" opacity="0.55"/>
+    <!-- Slight curious open mouth showing one tooth + gap -->
+    <ellipse cx="252" cy="247" rx="7" ry="5" fill="#8B2C2C"/>
+    <rect x="249" y="243" width="3" height="4" fill="white"/>
+    <!-- Nose -->
+    <path d="M 247 227 Q 242 233 249 236" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Glance lines (dotted lines between their eyes showing they noticed each other) -->
+  <g stroke="#FFCC00" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="3,4" opacity="0.7">
+    <path d="M 148 216 Q 200 200 258 216"/>
+  </g>
+
+  <!-- Small "?" between them -->
+  <g transform="translate(200 165)">
+    <circle r="14" fill="white" stroke="#1C1815" stroke-width="2"/>
+    <text x="0" y="6" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1C1815" text-anchor="middle">?</text>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">6</text>
+</svg>

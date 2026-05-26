@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF8F0"/>
+  <ellipse cx="200" cy="375" rx="160" ry="10" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- Happy sparkles all around -->
+  <g fill="#FFCC00" stroke="#C99A00" stroke-width="1" opacity="0.85">
+    <path d="M 80 90 L 82 95 L 87 95 L 83 98 L 84 103 L 80 100 L 76 103 L 77 98 L 73 95 L 78 95 Z"/>
+    <path d="M 320 95 L 322 100 L 327 100 L 323 103 L 324 108 L 320 105 L 316 108 L 317 103 L 313 100 L 318 100 Z"/>
+    <path d="M 200 60 L 202 65 L 207 65 L 203 68 L 204 73 L 200 70 L 196 73 L 197 68 L 193 65 L 198 65 Z"/>
+    <circle cx="120" cy="140" r="2" fill="#FFCC00"/>
+    <circle cx="280" cy="140" r="2" fill="#FFCC00"/>
+    <circle cx="50" cy="200" r="2" fill="#FFCC00"/>
+    <circle cx="350" cy="200" r="2" fill="#FFCC00"/>
+  </g>
+
+  <!-- Happy music notes -->
+  <g fill="#C76B9C">
+    <circle cx="60" cy="240" r="3.5"/>
+    <line x1="63" y1="240" x2="63" y2="225" stroke="#C76B9C" stroke-width="2"/>
+    <path d="M 63 225 L 70 222 L 70 228 Z" fill="#C76B9C"/>
+  </g>
+  <g fill="#3A6FA8">
+    <circle cx="345" cy="245" r="3.5"/>
+    <line x1="348" y1="245" x2="348" y2="230" stroke="#3A6FA8" stroke-width="2"/>
+    <path d="M 348 230 L 355 227 L 355 233 Z" fill="#3A6FA8"/>
+  </g>
+
+  <!-- ===== GIRL (left) - sitting beside baby, both holding bunny ===== -->
+  <g>
+    <!-- Legs sitting forward -->
+    <ellipse cx="80" cy="365" rx="16" ry="9" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="120" cy="365" rx="16" ry="9" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <path d="M 70 340 Q 65 360 80 365 L 90 365 Q 88 350 88 340 Z" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+    <path d="M 110 340 Q 108 350 110 365 L 120 365 Q 125 360 130 340 Z" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+
+    <!-- Body (dress, sitting forward) -->
+    <path d="M 70 285 Q 60 335 75 350 L 135 350 Q 150 335 135 285 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 75 348 Q 85 355 95 348 Q 105 355 115 348 Q 125 355 135 350" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <path d="M 85 285 Q 102 293 120 285" fill="none" stroke="#C76B9C" stroke-width="2.5"/>
+    <circle cx="103" cy="295" r="3.5" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+
+    <!-- Left arm down -->
+    <ellipse cx="60" cy="305" rx="10" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-10 60 305)"/>
+    <circle cx="53" cy="328" r="9" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Right arm reaching to share bunny -->
+    <path d="M 130 295 Q 165 275 188 265" fill="none" stroke="#D4A373" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 130 295 Q 165 275 188 265" fill="none" stroke="#C76B9C" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="190" cy="262" r="12" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Head, tilted toward baby (right) -->
+    <g transform="rotate(10 105 200)">
+      <!-- Hair back -->
+      <path d="M 50 215 Q 50 152 105 148 Q 160 152 160 215 Q 160 235 152 245 L 58 245 Q 50 235 50 215 Z" fill="#6B4226"/>
+      <!-- Face -->
+      <circle cx="105" cy="205" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+      <!-- Bangs -->
+      <path d="M 55 183 Q 75 163 105 163 Q 135 163 155 183 Q 145 192 132 188 Q 118 184 105 188 Q 92 184 78 188 Q 65 192 55 183 Z" fill="#6B4226"/>
+
+      <!-- Both pigtails (3/4 facing forward) -->
+      <g transform="translate(38 195) rotate(-12)">
+        <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+        <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(172 195) rotate(12)">
+        <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+        <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      </g>
+
+      <!-- HAPPY face -->
+      <!-- Soft eyebrows -->
+      <path d="M 72 184 Q 82 180 92 186" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 118 186 Q 128 180 138 184" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+      <!-- Closed-curve happy eyes -->
+      <path d="M 75 215 Q 85 207 95 215" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 115 215 Q 125 207 135 215" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Eyelashes -->
+      <line x1="76" y1="210" x2="74" y2="207" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="94" y1="210" x2="96" y2="207" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="116" y1="210" x2="114" y2="207" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="134" y1="210" x2="136" y2="207" stroke="#3D2817" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- Happy blush -->
+      <ellipse cx="62" cy="230" rx="11" ry="7" fill="#FFB3B3" opacity="0.8"/>
+      <ellipse cx="148" cy="230" rx="11" ry="7" fill="#FFB3B3" opacity="0.8"/>
+      <!-- Big smile with teeth -->
+      <path d="M 85 240 Q 105 258 125 240 Q 115 250 105 250 Q 95 250 85 240 Z" fill="#8B2C2C" stroke="#3D2817" stroke-width="2"/>
+      <path d="M 90 243 L 120 243 L 117 248 L 93 248 Z" fill="white"/>
+    </g>
+  </g>
+
+  <!-- ===== BUNNY (center, being held by both) ===== -->
+  <g>
+    <!-- Body -->
+    <ellipse cx="200" cy="265" rx="24" ry="20" fill="#F5E6D3" stroke="#8B6F47" stroke-width="2.5"/>
+    <!-- Head -->
+    <circle cx="200" cy="240" r="20" fill="#F5E6D3" stroke="#8B6F47" stroke-width="2.5"/>
+    <!-- Ears (perky upright) -->
+    <ellipse cx="190" cy="218" rx="5" ry="16" fill="#F5E6D3" stroke="#8B6F47" stroke-width="2"/>
+    <ellipse cx="210" cy="218" rx="5" ry="16" fill="#F5E6D3" stroke="#8B6F47" stroke-width="2"/>
+    <ellipse cx="190" cy="220" rx="2.5" ry="11" fill="#FFB6C1"/>
+    <ellipse cx="210" cy="220" rx="2.5" ry="11" fill="#FFB6C1"/>
+    <!-- Very happy bunny face -->
+    <path d="M 192 236 Q 195 240 198 236" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 202 236 Q 205 240 208 236" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+    <!-- Big smile -->
+    <path d="M 192 246 Q 200 253 208 246" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+    <!-- Pink nose -->
+    <path d="M 200 241 L 197 244 L 203 244 Z" fill="#FF9BB5"/>
+    <!-- Bunny blush -->
+    <circle cx="185" cy="245" r="3" fill="#FFB3B3" opacity="0.7"/>
+    <circle cx="215" cy="245" r="3" fill="#FFB3B3" opacity="0.7"/>
+  </g>
+
+  <!-- ===== BABY BOY (right) - sitting, holding other side of bunny ===== -->
+  <g>
+    <!-- Legs (sitting cross-legged-ish) -->
+    <ellipse cx="290" cy="368" rx="16" ry="9" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="335" cy="368" rx="16" ry="9" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <path d="M 282 342 L 285 365 L 297 365 L 295 342 Z" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+    <path d="M 325 342 L 330 365 L 342 365 L 338 342 Z" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+    <!-- Body (onesie) -->
+    <path d="M 275 295 Q 268 340 285 355 L 340 355 Q 350 340 345 295 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <circle cx="312" cy="315" r="3" fill="#3A6FA8"/>
+    <circle cx="312" cy="335" r="3" fill="#3A6FA8"/>
+
+    <!-- Left arm reaching for bunny -->
+    <path d="M 280 305 Q 240 280 215 270" fill="none" stroke="#D4A373" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 280 305 Q 240 280 215 270" fill="none" stroke="#3A6FA8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="212" cy="268" r="12" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+    <!-- Right arm relaxed -->
+    <ellipse cx="350" cy="315" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(12 350 315)"/>
+    <circle cx="358" cy="335" r="9" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+    <!-- Head, tilted toward girl (left) -->
+    <g transform="rotate(-8 305 215)">
+      <circle cx="305" cy="215" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+      <!-- Baby hair -->
+      <path d="M 295 162 Q 300 150 305 160 Q 308 153 312 162" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 290 168 Q 297 158 302 168" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 310 170 Q 317 160 322 170" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- HAPPY baby face -->
+      <!-- Soft eyebrows -->
+      <path d="M 278 195 Q 288 191 296 197" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 314 197 Q 322 191 332 195" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+      <!-- Smiley closed eyes -->
+      <path d="M 278 217 Q 288 209 298 217" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 312 217 Q 322 209 332 217" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Happy cheeks -->
+      <ellipse cx="270" cy="233" rx="11" ry="7" fill="#FFB3B3" opacity="0.8"/>
+      <ellipse cx="340" cy="233" rx="11" ry="7" fill="#FFB3B3" opacity="0.8"/>
+      <!-- Big toothy baby grin (with gap!) -->
+      <path d="M 285 245 Q 305 262 325 245 Q 315 254 305 254 Q 295 254 285 245 Z" fill="#8B2C2C" stroke="#3D2817" stroke-width="2"/>
+      <!-- One baby tooth + gap -->
+      <rect x="308" y="247" width="4" height="6" fill="white"/>
+      <rect x="298" y="247" width="4" height="3" fill="#3D1414" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">8</text>
+</svg>

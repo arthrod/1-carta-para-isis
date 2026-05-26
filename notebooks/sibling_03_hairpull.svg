@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF8F0"/>
+  <ellipse cx="200" cy="375" rx="160" ry="10" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- Chaos action lines / swirls -->
+  <g stroke="#FFCC00" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.75">
+    <path d="M 90 90 Q 100 80 110 90"/>
+    <path d="M 290 85 Q 300 75 310 85"/>
+    <path d="M 200 60 L 195 75"/>
+    <path d="M 215 70 L 210 85"/>
+    <path d="M 180 65 L 185 80"/>
+  </g>
+
+  <!-- Stars/sparks around action -->
+  <g fill="#FFCC00" stroke="#C99A00" stroke-width="1.5">
+    <path d="M 200 100 L 203 108 L 211 108 L 205 113 L 207 121 L 200 116 L 193 121 L 195 113 L 189 108 L 197 108 Z"/>
+    <path d="M 60 180 L 62 185 L 67 185 L 63 188 L 64 193 L 60 190 L 56 193 L 57 188 L 53 185 L 58 185 Z"/>
+    <path d="M 340 180 L 342 185 L 347 185 L 343 188 L 344 193 L 340 190 L 336 193 L 337 188 L 333 185 L 338 185 Z"/>
+  </g>
+
+  <!-- Loose hair strands flying -->
+  <g stroke="#6B4226" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M 230 130 Q 245 125 250 135"/>
+    <path d="M 240 145 Q 255 140 258 150"/>
+    <path d="M 260 120 Q 270 118 275 128"/>
+  </g>
+
+  <!-- ===== GIRL (left) - leaning IN, grabbing baby's hair ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="80" cy="370" rx="15" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="115" cy="370" rx="15" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <rect x="73" y="345" width="14" height="25" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+    <rect x="108" y="345" width="14" height="25" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+
+    <!-- Body (dress, leaning right) -->
+    <path d="M 70 290 Q 65 340 70 360 L 145 360 Q 140 340 130 285 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 70 358 Q 80 365 90 358 Q 100 365 110 358 Q 120 365 130 358 Q 140 365 145 360" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <path d="M 80 290 Q 100 298 120 290" fill="none" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Right arm reaching to grab baby's hair -->
+    <path d="M 125 295 Q 175 240 230 175" fill="none" stroke="#D4A373" stroke-width="20" stroke-linecap="round"/>
+    <path d="M 125 295 Q 175 240 230 175" fill="none" stroke="#C76B9C" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Fist clenched on hair -->
+    <circle cx="232" cy="172" r="13" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Left arm flailing -->
+    <ellipse cx="60" cy="310" rx="11" ry="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-30 60 310)"/>
+    <circle cx="45" cy="332" r="10" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Head (3/4 view facing right, tilted) -->
+    <g transform="rotate(10 105 200)">
+      <!-- Hair back -->
+      <path d="M 50 215 Q 50 152 105 148 Q 160 152 160 215 Q 160 235 152 245 L 58 245 Q 50 235 50 215 Z" fill="#6B4226"/>
+      <!-- Face -->
+      <circle cx="105" cy="205" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+      <!-- Bangs (messy) -->
+      <path d="M 55 183 Q 75 163 105 165 Q 135 163 155 183 Q 145 192 132 188 Q 118 184 105 190 Q 92 184 78 188 Q 65 192 55 183 Z" fill="#6B4226"/>
+      <!-- Messy hair strand sticking up -->
+      <path d="M 100 152 Q 95 138 90 145" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 115 150 Q 118 135 125 142" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- Pigtails (BOTH visible - she's 3/4 facing) -->
+      <g transform="translate(38 195) rotate(-25)">
+        <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+        <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      </g>
+      <g transform="translate(172 195) rotate(25)">
+        <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+        <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      </g>
+
+      <!-- Fierce angry face -->
+      <path d="M 72 192 L 92 200" stroke="#3D2817" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 138 192 L 118 200" stroke="#3D2817" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- Wide angry eyes -->
+      <ellipse cx="85" cy="215" rx="8" ry="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+      <ellipse cx="125" cy="215" rx="8" ry="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+      <circle cx="86" cy="217" r="4" fill="#3D2817"/>
+      <circle cx="126" cy="217" r="4" fill="#3D2817"/>
+      <!-- Red angry cheeks -->
+      <ellipse cx="68" cy="232" rx="10" ry="7" fill="#FF6B6B" opacity="0.7"/>
+      <ellipse cx="142" cy="232" rx="10" ry="7" fill="#FF6B6B" opacity="0.7"/>
+      <!-- Big shouting mouth -->
+      <path d="M 85 245 Q 105 268 125 245 Q 115 252 105 252 Q 95 252 85 245 Z" fill="#8B2C2C" stroke="#3D2817" stroke-width="2"/>
+      <!-- Teeth in mouth -->
+      <path d="M 90 247 L 120 247 L 117 252 L 93 252 Z" fill="white"/>
+    </g>
+
+    <!-- "AAHH!!" -->
+    <text x="15" y="155" font-family="Comic Sans MS, cursive" font-size="22" font-weight="bold" fill="#C76B9C" transform="rotate(-15 15 155)">AAHH!!</text>
+  </g>
+
+  <!-- ===== BABY BOY (right) - getting hair pulled, pulling back ===== -->
+  <g>
+    <!-- Legs/feet, flailing -->
+    <ellipse cx="285" cy="370" rx="15" ry="8" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="325" cy="370" rx="15" ry="8" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="278" y="345" width="14" height="25" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="318" y="345" width="14" height="25" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+    <!-- Body (onesie), leaning left toward sister -->
+    <path d="M 263 290 Q 255 345 265 360 L 340 360 Q 340 345 333 290 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <circle cx="300" cy="315" r="3" fill="#3A6FA8"/>
+    <circle cx="300" cy="335" r="3" fill="#3A6FA8"/>
+
+    <!-- Right arm reaching to grab girl's pigtail -->
+    <path d="M 275 295 Q 215 230 175 195" fill="none" stroke="#D4A373" stroke-width="18" stroke-linecap="round"/>
+    <path d="M 275 295 Q 215 230 175 195" fill="none" stroke="#3A6FA8" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Tiny fist on her pigtail -->
+    <circle cx="172" cy="192" r="11" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+    <!-- Left arm flailing -->
+    <ellipse cx="345" cy="310" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(20 345 310)"/>
+    <circle cx="358" cy="335" r="10" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+    <!-- Head, tilted from getting hair pulled -->
+    <g transform="rotate(-12 295 205)">
+      <circle cx="295" cy="205" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+      <!-- Baby hair (some being pulled up) -->
+      <path d="M 285 152 Q 290 130 295 145" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 295 150 Q 305 128 310 142" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 290 158 Q 297 145 302 158" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 305 160 Q 312 148 317 160" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Crying angry face -->
+      <path d="M 268 195 L 286 203" stroke="#3D2817" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 322 195 L 304 203" stroke="#3D2817" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- Scrunched crying eyes (curved lines) -->
+      <path d="M 270 220 Q 280 213 290 220" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 300 220 Q 310 213 320 220" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- Big tears flying -->
+      <path d="M 268 228 Q 263 245 268 252 Q 273 245 271 228 Z" fill="#7EC8E3" opacity="0.9" stroke="#3A6FA8" stroke-width="1"/>
+      <path d="M 322 228 Q 327 245 322 252 Q 317 245 319 228 Z" fill="#7EC8E3" opacity="0.9" stroke="#3A6FA8" stroke-width="1"/>
+      <!-- Splash tears -->
+      <circle cx="258" cy="260" r="3" fill="#7EC8E3" opacity="0.7"/>
+      <circle cx="332" cy="260" r="3" fill="#7EC8E3" opacity="0.7"/>
+
+      <!-- Red cheeks -->
+      <ellipse cx="263" cy="235" rx="10" ry="7" fill="#FF6B6B" opacity="0.7"/>
+      <ellipse cx="327" cy="235" rx="10" ry="7" fill="#FF6B6B" opacity="0.7"/>
+
+      <!-- Wailing wide-open mouth -->
+      <ellipse cx="295" cy="250" rx="14" ry="14" fill="#8B2C2C" stroke="#3D2817" stroke-width="2"/>
+      <ellipse cx="295" cy="254" rx="7" ry="5" fill="#3D1414"/>
+      <!-- Two baby teeth -->
+      <rect x="289" y="240" width="4" height="6" fill="white"/>
+      <rect x="297" y="240" width="4" height="6" fill="white"/>
+    </g>
+
+    <!-- "WAAAH!" -->
+    <text x="335" y="155" font-family="Comic Sans MS, cursive" font-size="22" font-weight="bold" fill="#3A6FA8" transform="rotate(15 335 155)">WAAAH!</text>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">3</text>
+</svg>

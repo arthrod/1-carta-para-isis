@@ -1,0 +1,19 @@
+/*
+ * Slide-mode: ensure SVG content fits the viewport.
+ */
+
+.reveal .mo-slide-content {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.reveal .slides > section {
+  overflow: hidden;
+}
+
+/* Constrain SVG illustrations to 40% viewport height */
+.svg-container svg {
+  max-height: 36vh;
+  width: auto;
+  height: auto;
+}

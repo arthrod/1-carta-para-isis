@@ -1,0 +1,23 @@
+name: MARIMO
+
+on:
+  push:
+
+permissions:
+  checks: write
+  contents: read
+
+jobs:
+  marimo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout [${{ github.repository }}]
+        uses: actions/checkout@v4
+
+      - name: "Build the virtual environment for ${{ github.repository }}"
+        uses: tschm/cradle/actions/environment@v0.5.0
+
+      - uses: tschm/cradle/actions/marimo@v0.5.0
+        with:
+          source_folder: 'notebooks'

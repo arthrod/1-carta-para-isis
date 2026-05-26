@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF8F0"/>
+  <ellipse cx="200" cy="375" rx="150" ry="10" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- Smoke puffs above GIRL (left) -->
+  <g opacity="0.8">
+    <ellipse cx="120" cy="50" rx="22" ry="16" fill="#8A8A8A"/>
+    <ellipse cx="100" cy="30" rx="16" ry="12" fill="#A8A8A8"/>
+    <ellipse cx="140" cy="25" rx="14" ry="10" fill="#A8A8A8"/>
+    <ellipse cx="125" cy="75" rx="26" ry="18" fill="#9CA3AF"/>
+    <ellipse cx="155" cy="55" rx="12" ry="9" fill="#B5BBC4"/>
+  </g>
+
+  <!-- Smoke puffs above BOY (right) -->
+  <g opacity="0.8">
+    <ellipse cx="280" cy="55" rx="20" ry="15" fill="#8A8A8A"/>
+    <ellipse cx="305" cy="35" rx="15" ry="11" fill="#A8A8A8"/>
+    <ellipse cx="260" cy="30" rx="13" ry="9" fill="#A8A8A8"/>
+    <ellipse cx="285" cy="80" rx="24" ry="17" fill="#9CA3AF"/>
+    <ellipse cx="250" cy="60" rx="11" ry="8" fill="#B5BBC4"/>
+  </g>
+
+  <!-- ===== GIRL (4yo) - profile facing LEFT, back to boy ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="105" cy="365" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="135" cy="365" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <rect x="98" y="340" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+    <rect x="128" y="340" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+
+    <!-- Body (dress) -->
+    <path d="M 85 285 Q 75 340 75 360 L 165 360 Q 165 340 155 285 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 75 358 Q 85 365 95 358 Q 105 365 115 358 Q 125 365 135 358 Q 145 365 155 358 Q 165 365 165 360" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <!-- Back bow -->
+    <path d="M 110 295 L 100 290 L 100 305 L 110 300 Z" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    <path d="M 130 295 L 140 290 L 140 305 L 130 300 Z" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    <circle cx="120" cy="297" r="4" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+
+    <!-- Arms -->
+    <ellipse cx="78" cy="305" rx="11" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-10 78 305)"/>
+    <ellipse cx="162" cy="305" rx="11" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(10 162 305)"/>
+
+    <!-- ===== HEAD + HAIR (profile facing LEFT) ===== -->
+    <!-- Hair back: round at the back of head -->
+    <path d="M 178 215
+             Q 178 152 130 148
+             Q 95 145 75 175
+             Q 65 195 65 215
+             Q 65 240 75 248
+             L 168 248
+             Q 178 240 178 215 Z"
+          fill="#6B4226"/>
+
+    <!-- Face (slightly offset left for profile) -->
+    <circle cx="118" cy="210" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Bangs sweeping forward (toward left/face direction) -->
+    <path d="M 70 188
+             Q 85 168 115 168
+             Q 145 168 165 188
+             Q 158 195 145 192
+             Q 130 188 118 192
+             Q 105 188 90 192
+             Q 80 195 70 188 Z"
+          fill="#6B4226"/>
+
+    <!-- ONLY ONE pigtail visible: the BACK one (right side, since she faces left) -->
+    <g transform="translate(185 200) rotate(15)">
+      <ellipse cx="0" cy="18" rx="14" ry="26" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="10" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      <path d="M -6 -8 Q -12 -14 -8 -4 Z" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+      <path d="M 6 -8 Q 12 -14 8 -4 Z" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+    </g>
+
+    <!-- Profile face elements (facing LEFT) -->
+    <!-- Angry eyebrow -->
+    <path d="M 76 200 L 94 206" stroke="#3D2817" stroke-width="4" stroke-linecap="round"/>
+    <!-- Squinted angry eye -->
+    <path d="M 78 217 Q 86 213 94 217" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="84" cy="218" r="2.5" fill="#3D2817"/>
+    <!-- Red cheek -->
+    <ellipse cx="80" cy="234" rx="9" ry="6" fill="#FF6B6B" opacity="0.65"/>
+    <!-- Pouty mouth in profile -->
+    <path d="M 70 247 Q 76 242 80 247 Q 76 254 70 252" fill="#D45A6B" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M 68 227 Q 63 234 70 237" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- "HMPH!" -->
+    <text x="32" y="275" font-family="Comic Sans MS, cursive" font-size="14" font-weight="bold" fill="#C76B9C">HMPH!</text>
+  </g>
+
+  <!-- ===== BABY BOY - profile facing RIGHT, back to girl ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="275" cy="365" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="305" cy="365" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="269" y="345" width="13" height="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="299" y="345" width="13" height="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+    <!-- Body (onesie) -->
+    <path d="M 252 295 Q 245 345 245 360 L 335 360 Q 335 345 328 295 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <line x1="290" y1="305" x2="290" y2="355" stroke="#3A6FA8" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="290" cy="315" r="2.5" fill="#3A6FA8"/>
+    <circle cx="290" cy="340" r="2.5" fill="#3A6FA8"/>
+
+    <!-- Arms -->
+    <ellipse cx="248" cy="310" rx="11" ry="18" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(-5 248 310)"/>
+    <ellipse cx="332" cy="310" rx="11" ry="18" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(5 332 310)"/>
+
+    <!-- Head -->
+    <circle cx="293" cy="215" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Baby hair wisps -->
+    <path d="M 288 162 Q 293 150 298 160 Q 301 153 305 162" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 283 168 Q 290 158 295 168" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 298 170 Q 305 160 310 170" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Profile face (facing RIGHT) -->
+    <path d="M 318 200 L 335 207" stroke="#3D2817" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 317 217 Q 325 213 333 217" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="327" cy="218" r="2.5" fill="#3D2817"/>
+    <ellipse cx="331" cy="234" rx="9" ry="6" fill="#FF6B6B" opacity="0.65"/>
+    <path d="M 331 247 Q 337 242 341 247 Q 337 254 331 252" fill="#D45A6B" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 343 227 Q 348 234 341 237" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 329 224 Q 327 234 331 239 Q 335 234 333 224 Z" fill="#7EC8E3" opacity="0.85"/>
+  </g>
+
+  <!-- Crackling tension lines -->
+  <g stroke="#FFCC00" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M 195 180 L 205 195 L 198 205 L 210 220"/>
+    <path d="M 200 245 L 192 255 L 205 265"/>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">1</text>
+</svg>

@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF8F0"/>
+  <ellipse cx="200" cy="375" rx="160" ry="10" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- ===== ADULT LEGS rushing in from TOP (Muppet Babies style) ===== -->
+  <g>
+    <!-- Left leg (jeans, mid-stride) -->
+    <path d="M 130 0 L 130 130 Q 135 155 145 175 L 165 175 L 175 170 Q 170 155 165 130 L 160 0 Z"
+          fill="#4A6FA5" stroke="#2C4A75" stroke-width="2.5"/>
+    <!-- Knee detail -->
+    <path d="M 132 110 Q 145 115 158 110" fill="none" stroke="#2C4A75" stroke-width="1.5"/>
+    <!-- Sneaker -->
+    <path d="M 138 170 Q 130 178 130 188 Q 130 195 145 195 L 180 195 Q 188 195 185 185 L 175 170 Z"
+          fill="white" stroke="#2C4A75" stroke-width="2.5"/>
+    <!-- Sneaker sole -->
+    <path d="M 130 188 L 188 188 L 188 195 L 130 195 Z" fill="#E8E8E8" stroke="#2C4A75" stroke-width="2"/>
+    <!-- Laces -->
+    <line x1="148" y1="180" x2="170" y2="180" stroke="#2C4A75" stroke-width="1.5"/>
+    <line x1="148" y1="184" x2="170" y2="184" stroke="#2C4A75" stroke-width="1.5"/>
+
+    <!-- Right leg (jeans, kicked forward) -->
+    <path d="M 230 0 L 235 105 Q 245 135 270 155 L 290 145 Q 280 130 270 105 L 260 0 Z"
+          fill="#4A6FA5" stroke="#2C4A75" stroke-width="2.5"/>
+    <!-- Knee detail -->
+    <path d="M 240 100 Q 252 105 264 95" fill="none" stroke="#2C4A75" stroke-width="1.5"/>
+    <!-- Sneaker -->
+    <path d="M 265 150 Q 258 162 264 170 Q 270 178 285 175 L 308 168 Q 314 162 308 155 L 290 145 Z"
+          fill="white" stroke="#2C4A75" stroke-width="2.5"/>
+    <path d="M 264 170 L 308 162 L 310 170 L 268 178 Z" fill="#E8E8E8" stroke="#2C4A75" stroke-width="2"/>
+    <line x1="275" y1="160" x2="295" y2="155" stroke="#2C4A75" stroke-width="1.5"/>
+    <line x1="277" y1="164" x2="297" y2="159" stroke="#2C4A75" stroke-width="1.5"/>
+
+    <!-- Motion/speed lines behind legs -->
+    <g stroke="#FFCC00" stroke-width="2.5" stroke-linecap="round" opacity="0.7">
+      <line x1="100" y1="50" x2="120" y2="80"/>
+      <line x1="105" y1="100" x2="125" y2="125"/>
+      <line x1="200" y1="40" x2="215" y2="65"/>
+      <line x1="210" y1="80" x2="225" y2="105"/>
+    </g>
+
+    <!-- "OH NO!" speech text from offscreen adult -->
+    <g transform="translate(50 100)">
+      <path d="M 0 0 L 70 0 L 70 25 L 45 25 L 35 35 L 35 25 L 0 25 Z" fill="white" stroke="#1C1815" stroke-width="2"/>
+      <text x="35" y="18" font-family="Comic Sans MS, cursive" font-size="13" font-weight="bold" fill="#1C1815" text-anchor="middle">OH NO!</text>
+    </g>
+  </g>
+
+  <!-- ===== TOOTH flying through the air ===== -->
+  <g transform="translate(220 200) rotate(35)">
+    <!-- Tooth shape (incisor) -->
+    <path d="M -10 -12
+             Q -12 -8 -10 0
+             Q -8 8 -6 14
+             Q -3 18 0 18
+             Q 3 18 6 14
+             Q 8 8 10 0
+             Q 12 -8 10 -12
+             Q 5 -16 0 -16
+             Q -5 -16 -10 -12 Z"
+          fill="white" stroke="#1C1815" stroke-width="2.5"/>
+    <!-- Tooth root -->
+    <path d="M -6 -12 Q -4 -18 0 -16 Q 4 -18 6 -12" fill="#F5E6D3" stroke="#1C1815" stroke-width="1.5"/>
+    <!-- Tooth shine -->
+    <ellipse cx="-3" cy="-4" rx="2" ry="6" fill="white" opacity="0.8"/>
+    <!-- Tiny blood spot -->
+    <circle cx="0" cy="-14" r="2" fill="#E63946"/>
+  </g>
+
+  <!-- Motion lines around tooth -->
+  <g stroke="#1C1815" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M 195 195 L 175 188"/>
+    <path d="M 200 215 L 180 220"/>
+    <path d="M 210 180 L 195 165"/>
+  </g>
+
+  <!-- Sparkles around tooth -->
+  <g fill="#FFCC00" stroke="#C99A00" stroke-width="1">
+    <path d="M 245 175 L 247 180 L 252 180 L 248 183 L 250 188 L 245 185 L 240 188 L 242 183 L 238 180 L 243 180 Z"/>
+    <path d="M 195 240 L 197 244 L 201 244 L 198 247 L 199 251 L 195 248 L 191 251 L 193 247 L 189 244 L 193 244 Z"/>
+  </g>
+
+  <!-- ===== GIRL (left) - hand on mouth, shocked ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="65" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="95" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <rect x="58" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+    <rect x="88" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+
+    <!-- Body (dress) -->
+    <path d="M 50 285 Q 40 340 50 360 L 120 360 Q 115 340 110 285 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 50 358 Q 60 365 70 358 Q 80 365 90 358 Q 100 365 110 358 Q 115 365 120 360" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <path d="M 60 285 Q 80 293 100 285" fill="none" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Right arm bent up to cover mouth -->
+    <path d="M 100 295 Q 110 270 105 245" fill="none" stroke="#D4A373" stroke-width="20" stroke-linecap="round"/>
+    <path d="M 100 295 Q 110 270 105 245" fill="none" stroke="#C76B9C" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Hand on mouth -->
+    <circle cx="102" cy="240" r="13" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Left arm hanging down, surprised -->
+    <ellipse cx="45" cy="310" rx="11" ry="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-15 45 310)"/>
+    <circle cx="38" cy="335" r="10" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5"/>
+
+    <!-- Head -->
+    <!-- Hair back -->
+    <path d="M 30 215 Q 30 152 85 148 Q 140 152 140 215 Q 140 235 132 245 L 38 245 Q 30 235 30 215 Z" fill="#6B4226"/>
+    <!-- Face -->
+    <circle cx="85" cy="205" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+    <!-- Bangs -->
+    <path d="M 35 183 Q 55 163 85 163 Q 115 163 135 183 Q 125 192 112 188 Q 98 184 85 188 Q 72 184 58 188 Q 45 192 35 183 Z" fill="#6B4226"/>
+
+    <!-- Pigtails (both visible, 3/4 view) -->
+    <g transform="translate(18 195) rotate(-15)">
+      <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(152 195) rotate(15)">
+      <ellipse cx="0" cy="15" rx="13" ry="22" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="9" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    </g>
+
+    <!-- SHOCKED face -->
+    <!-- Raised eyebrows -->
+    <path d="M 55 180 Q 65 173 75 180" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 95 180 Q 105 173 115 180" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Wide shocked eyes -->
+    <circle cx="65" cy="208" r="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+    <circle cx="105" cy="208" r="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+    <circle cx="65" cy="210" r="5" fill="#3D2817"/>
+    <circle cx="105" cy="210" r="5" fill="#3D2817"/>
+    <circle cx="67" cy="208" r="1.5" fill="white"/>
+    <circle cx="107" cy="208" r="1.5" fill="white"/>
+    <!-- Pale cheeks (concern) -->
+    <ellipse cx="50" cy="225" rx="8" ry="5" fill="#FFB3B3" opacity="0.5"/>
+    <ellipse cx="120" cy="225" rx="8" ry="5" fill="#FFB3B3" opacity="0.5"/>
+    <!-- Mouth covered by hand (small "o" visible above hand) -->
+    <ellipse cx="85" cy="234" rx="6" ry="4" fill="#8B2C2C"/>
+  </g>
+
+  <!-- ===== BABY BOY (right) - sitting, mouth open showing gap ===== -->
+  <g>
+    <!-- Legs spread out (sitting on floor) -->
+    <ellipse cx="280" cy="370" rx="16" ry="8" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="335" cy="370" rx="16" ry="8" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <path d="M 275 345 L 280 370 L 290 370 L 285 345 Z" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+    <path d="M 325 345 L 330 370 L 340 370 L 335 345 Z" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+    <!-- Body (onesie, sitting) -->
+    <path d="M 270 300 Q 260 350 275 365 L 340 365 Q 350 350 345 300 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <circle cx="307" cy="325" r="3" fill="#3A6FA8"/>
+    <circle cx="307" cy="345" r="3" fill="#3A6FA8"/>
+
+    <!-- Arms held up, also shocked -->
+    <ellipse cx="262" cy="315" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(-25 262 315)"/>
+    <circle cx="252" cy="295" r="10" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+    <ellipse cx="352" cy="315" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(25 352 315)"/>
+    <circle cx="362" cy="295" r="10" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5"/>
+
+    <!-- Head -->
+    <circle cx="307" cy="215" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Baby hair -->
+    <path d="M 297 162 Q 302 150 307 160 Q 310 153 314 162" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 292 168 Q 299 158 304 168" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 312 170 Q 319 160 324 170" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Worried/surprised eyebrows -->
+    <path d="M 278 197 Q 290 192 295 200" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 336 197 Q 324 192 319 200" fill="none" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Wide surprised eyes -->
+    <circle cx="288" cy="215" r="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+    <circle cx="326" cy="215" r="9" fill="white" stroke="#3D2817" stroke-width="2"/>
+    <circle cx="288" cy="217" r="5" fill="#3D2817"/>
+    <circle cx="326" cy="217" r="5" fill="#3D2817"/>
+    <circle cx="290" cy="215" r="1.5" fill="white"/>
+    <circle cx="328" cy="215" r="1.5" fill="white"/>
+
+    <!-- A single tear forming -->
+    <path d="M 286 226 Q 284 235 287 240 Q 290 235 289 226 Z" fill="#7EC8E3" opacity="0.85" stroke="#3A6FA8" stroke-width="1"/>
+
+    <!-- Slightly red cheeks from crying -->
+    <ellipse cx="270" cy="232" rx="10" ry="7" fill="#FF9B9B" opacity="0.6"/>
+    <ellipse cx="344" cy="232" rx="10" ry="7" fill="#FF9B9B" opacity="0.6"/>
+
+    <!-- Open mouth with VISIBLE GAP (missing tooth!) -->
+    <ellipse cx="307" cy="248" rx="13" ry="11" fill="#8B2C2C" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="307" cy="251" rx="6" ry="4" fill="#3D1414"/>
+    <!-- ONE remaining baby tooth + GAP where the other was -->
+    <rect x="312" y="240" width="4" height="6" fill="white"/>
+    <!-- The gap (just dark, no tooth) where left tooth used to be -->
+    <rect x="299" y="240" width="4" height="3" fill="#3D1414" opacity="0.7"/>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">4</text>
+</svg>

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF8F0"/>
+
+  <!-- Wall/corner lines -->
+  <line x1="0" y1="280" x2="400" y2="280" stroke="#D4C8B8" stroke-width="2"/>
+  <line x1="200" y1="0" x2="200" y2="280" stroke="#D4C8B8" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Floor shadow strips -->
+  <ellipse cx="100" cy="375" rx="80" ry="8" fill="#E8DDD0" opacity="0.6"/>
+  <ellipse cx="300" cy="375" rx="80" ry="8" fill="#E8DDD0" opacity="0.6"/>
+
+  <!-- Small clock on wall -->
+  <g transform="translate(200 80)">
+    <circle r="28" fill="white" stroke="#1C1815" stroke-width="2.5"/>
+    <circle r="2.5" fill="#1C1815"/>
+    <line x1="0" y1="0" x2="0" y2="-18" stroke="#1C1815" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="14" y2="0" stroke="#1C1815" stroke-width="2" stroke-linecap="round"/>
+    <text x="0" y="-19" font-family="Georgia, serif" font-size="6" fill="#1C1815" text-anchor="middle">12</text>
+    <text x="20" y="3" font-family="Georgia, serif" font-size="6" fill="#1C1815" text-anchor="middle">3</text>
+    <text x="0" y="24" font-family="Georgia, serif" font-size="6" fill="#1C1815" text-anchor="middle">6</text>
+    <text x="-20" y="3" font-family="Georgia, serif" font-size="6" fill="#1C1815" text-anchor="middle">9</text>
+  </g>
+
+  <!-- Tiny "5 MIN" sign hanging from clock -->
+  <g transform="translate(200 125)">
+    <line x1="0" y1="-10" x2="0" y2="0" stroke="#1C1815" stroke-width="1.5"/>
+    <rect x="-22" y="0" width="44" height="18" fill="#FFCC00" stroke="#1C1815" stroke-width="1.5" rx="3"/>
+    <text x="0" y="13" font-family="Comic Sans MS, cursive" font-size="11" font-weight="bold" fill="#1C1815" text-anchor="middle">5 MIN</text>
+  </g>
+
+  <!-- ===== GIRL (left corner) - facing wall, arms crossed ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="80" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <ellipse cx="110" cy="370" rx="14" ry="8" fill="#5B3A1F" stroke="#3D2817" stroke-width="2"/>
+    <rect x="73" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+    <rect x="103" y="345" width="14" height="22" fill="#D4A373" stroke="#C76B9C" stroke-width="2"/>
+
+    <!-- Body (dress) -->
+    <path d="M 65 285 Q 55 340 60 360 L 135 360 Q 130 340 125 285 Z" fill="#F4A6CD" stroke="#C76B9C" stroke-width="2.5"/>
+    <path d="M 60 358 Q 70 365 80 358 Q 90 365 100 358 Q 110 365 120 358 Q 130 365 135 360" fill="none" stroke="#C76B9C" stroke-width="2"/>
+    <!-- Back bow -->
+    <path d="M 95 295 L 85 290 L 85 305 L 95 300 Z" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    <path d="M 105 295 L 115 290 L 115 305 L 105 300 Z" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+    <circle cx="100" cy="297" r="4" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+
+    <!-- Arms crossed in front (hidden, just sides showing) -->
+    <ellipse cx="58" cy="305" rx="10" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(-8 58 305)"/>
+    <ellipse cx="138" cy="305" rx="10" ry="20" fill="#D4A373" stroke="#C76B9C" stroke-width="2.5" transform="rotate(8 138 305)"/>
+
+    <!-- Head facing LEFT (toward wall) -->
+    <!-- Hair back -->
+    <path d="M 158 215
+             Q 158 152 110 148
+             Q 75 145 55 175
+             Q 45 195 45 215
+             Q 45 240 55 248
+             L 148 248
+             Q 158 240 158 215 Z"
+          fill="#6B4226"/>
+
+    <!-- Face -->
+    <circle cx="98" cy="210" r="55" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Bangs -->
+    <path d="M 50 188 Q 65 168 95 168 Q 125 168 145 188 Q 138 195 125 192 Q 110 188 98 192 Q 85 188 70 192 Q 60 195 50 188 Z" fill="#6B4226"/>
+
+    <!-- Only the back pigtail visible -->
+    <g transform="translate(165 200) rotate(15)">
+      <ellipse cx="0" cy="18" rx="14" ry="26" fill="#6B4226" stroke="#4A2D1A" stroke-width="1.5"/>
+      <ellipse cx="0" cy="-5" rx="10" ry="5" fill="#E63946" stroke="#A02029" stroke-width="1.5"/>
+      <path d="M -6 -8 Q -12 -14 -8 -4 Z" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+      <path d="M 6 -8 Q 12 -14 8 -4 Z" fill="#E63946" stroke="#A02029" stroke-width="1"/>
+    </g>
+
+    <!-- Profile face (facing LEFT) - sulky -->
+    <!-- Pouty eyebrow (sad-angry) -->
+    <path d="M 56 198 L 76 205" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Half-closed sulky eye -->
+    <path d="M 58 217 Q 66 215 76 217" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="66" cy="218" r="2.5" fill="#3D2817"/>
+    <!-- Small tear (sulky cry) -->
+    <path d="M 64 226 Q 62 234 65 238 Q 68 234 67 226 Z" fill="#7EC8E3" opacity="0.7"/>
+    <!-- Faded cheek -->
+    <ellipse cx="62" cy="237" rx="9" ry="5" fill="#FFB3B3" opacity="0.5"/>
+    <!-- Downturned pouty mouth in profile -->
+    <path d="M 50 250 Q 56 254 62 250" fill="none" stroke="#3D2817" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Nose -->
+    <path d="M 48 230 Q 43 236 50 239" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Thought bubble - she's plotting -->
+    <g transform="translate(20 130)">
+      <circle cx="0" cy="0" r="3" fill="white" stroke="#1C1815" stroke-width="1.5"/>
+      <circle cx="-8" cy="-8" r="5" fill="white" stroke="#1C1815" stroke-width="1.5"/>
+      <ellipse cx="-25" cy="-22" rx="22" ry="14" fill="white" stroke="#1C1815" stroke-width="2"/>
+      <text x="-25" y="-19" font-family="Comic Sans MS, cursive" font-size="11" font-weight="bold" fill="#1C1815" text-anchor="middle">não foi</text>
+      <text x="-25" y="-7" font-family="Comic Sans MS, cursive" font-size="11" font-weight="bold" fill="#1C1815" text-anchor="middle">eu...</text>
+    </g>
+  </g>
+
+  <!-- ===== BABY BOY (right corner) - sitting in corner, pouty ===== -->
+  <g>
+    <!-- Legs/feet -->
+    <ellipse cx="285" cy="370" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <ellipse cx="315" cy="370" rx="13" ry="7" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="278" y="345" width="13" height="22" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+    <rect x="308" y="345" width="13" height="22" fill="#D4A373" stroke="#3A6FA8" stroke-width="2"/>
+
+    <!-- Body (onesie) -->
+    <path d="M 268 295 Q 260 345 265 360 L 335 360 Q 340 345 333 295 Z" fill="#7EC8E3" stroke="#3A6FA8" stroke-width="2.5"/>
+    <line x1="300" y1="305" x2="300" y2="355" stroke="#3A6FA8" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="300" cy="315" r="2.5" fill="#3A6FA8"/>
+    <circle cx="300" cy="340" r="2.5" fill="#3A6FA8"/>
+
+    <!-- Arms hanging, sulky -->
+    <ellipse cx="260" cy="310" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(-5 260 310)"/>
+    <ellipse cx="340" cy="310" rx="11" ry="20" fill="#D4A373" stroke="#3A6FA8" stroke-width="2.5" transform="rotate(5 340 310)"/>
+
+    <!-- Head facing RIGHT (toward wall) -->
+    <circle cx="302" cy="215" r="58" fill="#D4A373" stroke="#7A4A1F" stroke-width="2.5"/>
+
+    <!-- Baby hair -->
+    <path d="M 297 162 Q 302 150 307 160 Q 310 153 314 162" fill="none" stroke="#6B4226" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 292 168 Q 299 158 304 168" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 307 170 Q 314 160 319 170" fill="none" stroke="#6B4226" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Profile face (facing RIGHT) - sulky -->
+    <path d="M 326 198 L 346 205" stroke="#3D2817" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 326 217 Q 334 215 344 217" fill="none" stroke="#3D2817" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="338" cy="218" r="2.5" fill="#3D2817"/>
+    <path d="M 336 226 Q 334 234 337 238 Q 340 234 339 226 Z" fill="#7EC8E3" opacity="0.7"/>
+    <ellipse cx="340" cy="237" rx="9" ry="5" fill="#FFB3B3" opacity="0.5"/>
+    <!-- Downturned mouth -->
+    <path d="M 340 250 Q 346 254 352 250" fill="none" stroke="#3D2817" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 354 230 Q 359 236 352 239" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Thought bubble - sulking -->
+    <g transform="translate(380 130)">
+      <circle cx="0" cy="0" r="3" fill="white" stroke="#1C1815" stroke-width="1.5"/>
+      <circle cx="8" cy="-8" r="5" fill="white" stroke="#1C1815" stroke-width="1.5"/>
+      <ellipse cx="-3" cy="-22" rx="20" ry="14" fill="white" stroke="#1C1815" stroke-width="2"/>
+      <text x="-3" y="-18" font-family="Comic Sans MS, cursive" font-size="14" fill="#1C1815" text-anchor="middle">😤</text>
+    </g>
+    <!-- Replace emoji with simple sad face shapes -->
+    <g transform="translate(377 108)">
+      <line x1="-8" y1="0" x2="-4" y2="-3" stroke="#1C1815" stroke-width="2" stroke-linecap="round"/>
+      <line x1="4" y1="0" x2="8" y2="-3" stroke="#1C1815" stroke-width="2" stroke-linecap="round"/>
+      <path d="M -4 6 Q 0 3 4 6" fill="none" stroke="#1C1815" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Number badge -->
+  <circle cx="370" cy="30" r="22" fill="#1C1815"/>
+  <text x="370" y="38" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#FFCC00" text-anchor="middle">5</text>
+</svg>

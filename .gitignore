@@ -1,0 +1,7 @@
+.idea
+.venv
+__pycache__
+.ruff_cache
+
+# Val Town local linking state
+valtown/.vt/
