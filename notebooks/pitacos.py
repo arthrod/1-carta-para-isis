@@ -1,10 +1,22 @@
+# /// script
+# dependencies = [
+#     "marimo",
+#     "mcp>=1",
+#     "pydantic>=2",
+#     "vegafusion==2.0.3",
+#     "vl-convert-python==1.9.0.post1",
+# ]
+# requires-python = ">=3.13"
+# ///
+
 import marimo
 
-__generated_with = "0.23.8"
+__generated_with = "0.23.5"
 app = marimo.App(
     width="medium",
-    layout_file="layouts/welcome-elaine.slides.json",
-    css_file="slides.css",
+    layout_file="layouts/notebook.slides.json",
+    css_file="custom.css",
+    auto_download=["html"],
 )
 
 
@@ -26,66 +38,23 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo):
-    def create_accordion_message():
-        accordion = mo.accordion(
-            {
-                "Carta para Isis ": f"""
-                <div style="background-color: #fff8e1; border-radius: 8px; padding: 20px; border: 1px solid #ffecb3; 
-                      font-family: 'Garamond', monospace; position: relative; margin: 10px 0;">
-
-                    <p style="font-style: italic; line-height: 1.6;">
-                        Querida Isis,
-                        <br/><br/>
-                        Estou ansioso pelo dia em que você vai ler esta carta para mim pessoalmente.
-                        Tenho certeza de que estaremos errados sobre muitas coisas, mas não sobre o fato
-                        de que você é uma menina adorável e inteligente.
-                        <br/><br/>
-                        Preparei esta página com muito carinho. Espero que as dicas aqui reunidas
-                        sejam úteis para seus pais e para você ao longo dos anos.
-                        <br/><br/>
-                        Com amor,<br/>
-                        Tio Arthur
-                    </p>
-
-                    <div style="text-align: right; margin-top: 10px;">
-                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" 
-                                  fill="#ff8f00" opacity="0.7"/>
-                        </svg>
-                    </div>
-                </div>
-                """
-            },
-        )
-        return accordion
-
-
-    letter_accordion = create_accordion_message()
-    return (letter_accordion,)
-
-
-@app.cell(hide_code=True)
-def _(mo):
     def create_parents_letter_accordion():
         accordion = mo.accordion(
             {
-                "Uma Carta para os Pais da Isis ": f"""
+                "Pitacos e Uma Carta Para Isis": f"""
                 <div style="background-color: #e3f2fd; border-radius: 8px; padding: 25px; border: 1px solid #bbdefb; 
                       font-family: 'Georgia', serif; position: relative;
                       margin: 10px 0;">
 
                     <p style="line-height: 1.6; font-size: 1.05em;">
-                        Olá,
+                        Isis,
                         <br/><br/>
-                        Preparei isto como um presente para a Isis e, claro, para vocês. Esta é uma lista de conselhos sobre como criar filhos de 0 a 9 anos.
-                        É claro que eu não entendo nada disso e usei deep research, que geralmente fornece informações sólidas.
+                        Queria dizer o quanto eu aprecio seu amor e generosidade.
+                        Como a minha maior habilidade é fazer a cabeça pra funcionar para achar as coisas, resolvi que o melhor seria escrever uma série de pitacos, que parecem ser sólidos.
                         <br/><br/>
-                        Além de uma revisão superficial, não verifiquei a qualidade dos resultados. Eles parecem sólidos e lógicos.
-                        São, no entanto, apresentados como metas esperançosas e não como garantias — aspirações para o que queremos que aconteça
-                        no desenvolvimento de uma criança. De qualquer forma, diante do desconhecido e na ausência de conhecimento testado,
-                        a lógica é tudo o que temos.
+                        Obviamente que estou sendo como um padre dando pitaco em casamento, mas foi a forma que encontrei de te agradecer pelo tanto que você se preocupou e está tentando.
                         <br/><br/>
-                        Com amor,<br/>
+                        Do padrinho que te ama,<br/>
                         Arthur
                     </p>
 
@@ -107,15 +76,8 @@ def _(mo):
 
 
 @app.cell(hide_code=True)
-def _(letter_accordion, mo, parents_letter_accordion):
-    mo.output.replace(
-        mo.vstack(
-            [
-                parents_letter_accordion,
-                letter_accordion,
-            ]
-        )
-    )
+def _(parents_letter_accordion):
+    parents_letter_accordion
     return
 
 
@@ -134,23 +96,23 @@ def _(os):
     parenting_advice = {
         0: [
             {
-                "t": "**Esqueça a palmada: ela faz o oposto do que você quer.**",
-                "p": "Uma das maiores meta-análises já feitas mostrou que palmada se associa a mais agressividade, mais problemas de comportamento e uma relação pior com os pais. A casa que bate ensina que bater resolve.",
+                "t": "**Chinelada parece mesmo que não funciona.**",
+                "p": "Uma das maiores meta-análises já feitas mostrou que palmada se associa a mais agressividade, mais problemas de comportamento e uma relação pior com os pais. Meio que a casa que bate ensina que bater resolve.",
                 "s": "[Gershoff & Grogan-Kaylor (2016), Journal of Family Psychology](https://pmc.ncbi.nlm.nih.gov/articles/PMC7992110/)",
             },
             {
-                "t": "**A mesa de jantar é mais poderosa do que parece.**",
+                "t": "**Comer juntos em família é importante demais.**",
                 "p": "Comer junto três vezes ou mais por semana se associa a hábitos alimentares melhores, peso mais saudável e um espaço previsível de convivência sem disputa.",
                 "s": "[Hammons & Fiese (2011), Pediatrics](https://pmc.ncbi.nlm.nih.gov/articles/PMC3387875/)",
             },
             {
-                "t": "**'É coisa de irmã' pode esconder bullying sério.**",
-                "p": "Bullying frequente entre irmãs quase dobrou o risco de depressão aos 18 anos em um grande estudo longitudinal.",
+                "t": "**'É coisa de irmão' pode esconder bullying sério.**",
+                "p": "Em um grande estudo longitudinal, bullying frequente entre irmãos quase dobrou o risco de depressão aos 18 anos.",
                 "s": "[Bowes et al. (2014), Pediatrics](https://publications.aap.org/pediatrics/article-abstract/134/4/e1032/32993/Sibling-Bullying-and-Risk-of-Depression-Anxiety)",
             },
             {
-                "t": "**Apanhar em casa e na escola é a combinação mais destrutiva.**",
-                "p": "Crianças agredidas ao mesmo tempo por irmãs e colegas apresentaram os maiores riscos de depressão e automutilação.",
+                "t": "**Fique de olho se alguém ficar mais agressivo.**",
+                "p": "Crianças agredidas ao mesmo tempo por irmãos e colegas apresentaram os maiores riscos de depressão.",
                 "s": "[Dantchev et al. (2019), Frontiers in Psychiatry](https://doi.org/10.3389/fpsyt.2019.00651)",
             },
         ],
@@ -172,23 +134,23 @@ def _(os):
             },
             {
                 "t": "**Ensine a criança a 'dar uma respirada' antes de reagir.**",
-                "p": "Treinos de regulação emocional melhoraram a qualidade da relação entre irmãs.",
+                "p": "Treinos de regulação emocional melhoraram a qualidade da relação entre irmãos.",
                 "s": "[Kennedy & Kramer (2008), Family Relations](https://experts.illinois.edu/en/publications/improving-emotion-regulation-and-sibling-relationship-quality-the/)",
             },
         ],
         2: [
             {
-                "t": "**Seus filhos copiam como VOCÊ lida com a raiva.**",
+                "t": "**Seus filhos copiam como VOCÊ lida com o mundo.**",
                 "p": "Crianças aprendem regulação emocional observando como os pais lidam com emoções difíceis.",
                 "s": "[Ravindran et al. (2015), Journal of Family Psychology](https://pubmed.ncbi.nlm.nih.gov/26053350/)",
             },
             {
-                "t": "**Tratar igual não é tratar justo.**",
+                "t": "**Cuidado com a percepção de injustiça.**",
                 "p": "O filho que percebe receber tratamento menos favorável tende a apresentar mais ansiedade e problemas de comportamento.",
                 "s": "[Jensen & Thomsen (2024), Child Development](https://pubmed.ncbi.nlm.nih.gov/38439142/)",
             },
             {
-                "t": "**Você provavelmente favorece a filha mais velha sem perceber.**",
+                "t": "**Cuidado em não ter um favoritismo invisível.**",
                 "p": "Meta-análises recentes encontraram tendências consistentes de favoritismo às filhas e aos filhos mais velhos.",
                 "s": "[Jensen & Jorgensen-Wells (2025), Psychological Bulletin](https://pubmed.ncbi.nlm.nih.gov/39818912/)",
             },
@@ -200,7 +162,7 @@ def _(os):
         ],
         3: [
             {
-                "t": "**'Por que você não é como sua irmã?' — nunca.**",
+                "t": "**'Por que você não é como sua irmã?' Sério, nunca.**",
                 "p": "Comparações constantes alimentam sensação de injustiça e rivalidade.",
                 "s": "[Padilla et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC5110249/)",
             },
@@ -211,7 +173,7 @@ def _(os):
             },
             {
                 "t": "**Quinze minutos a sós com cada filho valem ouro.**",
-                "p": "Tempo individual previsível reduz ciúmes e aumenta proximidade entre irmãs.",
+                "p": "Tempo individual previsível reduz ciúmes e aumenta proximidade entre irmãos.",
                 "s": "[Pike, Coldwell & Dunn (2005)](https://pubmed.ncbi.nlm.nih.gov/?term=Pike+Coldwell+Dunn+sibling+relationships+2005)",
             },
             {
@@ -222,7 +184,7 @@ def _(os):
         ],
         4: [
             {
-                "t": "**Diga em voz alta o que o outro está sentindo.**",
+                "t": "**Diga em voz alta o nome do que se está sentindo.**",
                 "p": "Nomear emoções ajuda crianças a desenvolver empatia ao longo do tempo.",
                 "s": "[Jambon et al. (2019), Child Development](https://pubmed.ncbi.nlm.nih.gov/?term=Jambon+empathic+concern+siblings+2019)",
             },
@@ -254,24 +216,24 @@ def _(os):
                 "s": "[Tucker & Finkelhor (2017)](https://pubmed.ncbi.nlm.nih.gov/?term=Tucker+Finkelhor+sibling+conflict+aggression+review+2017)",
             },
             {
-                "t": "**A filha mais velha é irmã, não babá oficial.**",
+                "t": "**Irmã não é babá oficial (mais fácil dito que fazer).**",
                 "p": "Sobrecarregar o filho mais velho com funções parentais se associa a ansiedade futura.",
                 "s": "[Hooper et al. (2011)](https://pubmed.ncbi.nlm.nih.gov/?term=Hooper+Parentification+Inventory+2011)",
             },
             {
-                "t": "**Criança que cuida demais dá sinais.**",
+                "t": "**Mesmo quando há boa vontade, pode ser que a carga seja demais.**",
                 "p": "Ansiedade, queda escolar e sono ruim podem indicar sobrecarga excessiva.",
                 "s": "[Roberts & Beaton (2024)](https://pubmed.ncbi.nlm.nih.gov/?term=Roberts+Beaton+parentification+young+caregivers+2024)",
             },
         ],
         6: [
             {
-                "t": "**Prepare a primogênita antes do bebê chegar.**",
+                "t": "**Prepare a primogênita antes do bebê chegar (too late haha).**",
                 "p": "A transição para irmã mais velha traz mudanças emocionais importantes.",
                 "s": "[Zhang et al. (2023)](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+firstborn+transition+to+siblinghood+2023)",
             },
             {
-                "t": "**A mais velha pode 'voltar a ser bebê' por um tempo.**",
+                "t": "**A infantilidade repentina são comuns nessa fase.**",
                 "p": "Pequenas regressões após o nascimento de um irmão são comuns e fazem parte da adaptação.",
                 "s": "[Zhang et al. (2023)](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+firstborn+transition+to+siblinghood+2023)",
             },
@@ -293,7 +255,7 @@ def _(os):
                 "s": "[Masarik et al.](https://www.depts.ttu.edu/hs/hdfs/research/sibs/docs/Masarik-Rogers-Online2019.pdf)",
             },
             {
-                "t": "**Dê aos filhos um roteiro para resolver conflitos sozinhos.**",
+                "t": "**Dê aos filhos um roteiro para resolver conflitos sozinhos (processo! haha).**",
                 "p": "Estratégias explícitas de negociação reduzem conflitos destrutivos.",
                 "s": "[Updegraff et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC2742483/)",
             },
@@ -303,8 +265,8 @@ def _(os):
                 "s": "[Revisão sistemática sobre irmãos latinx (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11273421/)",
             },
             {
-                "t": "**Uma irmã próxima pode amortecer problemas vindos de fora.**",
-                "p": "Calor emocional entre irmãs protege adolescentes contra impactos de estresses externos.",
+                "t": "**Uma relação sadia entre irmãos tem efeitos muito além do que você espera.**",
+                "p": "Calor emocional entre irmãos protege adolescentes contra impactos de estresses externos.",
                 "s": "[Sibling Relationships and Adolescent Adjustment](https://pmc.ncbi.nlm.nih.gov/articles/PMC4600416/)",
             },
         ],
@@ -326,19 +288,19 @@ def _(os):
             },
             {
                 "t": "**Se a mais velha começou a fumar, observe o mais novo.**",
-                "p": "Ter uma irmã fumante aumentou fortemente a chance de adolescentes também fumarem.",
+                "p": "Ter um irmão fumante aumentou fortemente a chance de adolescentes também fumarem.",
                 "s": "[Abreu, Souza & Caiaffa (2011)](https://www.scielo.br/j/csp/a/WpsWmTFCCNwd8Cgn34xCRbS/?lang=pt)",
             },
         ],
         9: [
             {
-                "t": "**Muitas crianças pequenas em casa? Vale checar anemia.**",
+                "t": "**Coisa doida: muitas crianças pequenas em casa? Vale checar anemia.**",
                 "p": "Morar com várias crianças menores de 5 anos esteve associado a maior prevalência de anemia infantil.",
                 "s": "[da Silva, Fawzi & Cardoso (2018)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0204504)",
             },
             {
-                "t": "**Primogênitos tendem a se mexer menos.**",
-                "p": "Primogênitos apresentaram níveis mais baixos de atividade física em estudos brasileiros.",
+                "t": "**Primogênitos tendem a se exercitar menos (eu atesto! haha).**",
+                "p": "Primogênitos apresentaram níveis mais baixos de atividade física em estudos.",
                 "s": "[Wells et al. (2011)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3658103/)",
             },
             {
@@ -401,7 +363,7 @@ def _():
 
 @app.cell(hide_code=True)
 def _(mo, tabs_dict_years):
-    year_tabs = mo.ui.tabs(tabs_dict_years)
+    year_tabs = mo.ui.tabs(tabs_dict_years, label="")
     return (year_tabs,)
 
 
@@ -422,10 +384,12 @@ def _(advice_emojis, advice_styles, mo):
 
                     _rendered = mo.md(f"""{_t}
 
-{_p}
+    {_p}
 
-{_s}""")
-                    advice_content = mo.Html(f'''<div style="background-color: {current_style["bg"]}; border-radius: 4px; padding: 10px 12px; border-left: 3px solid {current_style["border"]};">{_rendered}</div>''')
+    {_s}""")
+                    advice_content = mo.Html(
+                        f"""<div style="background-color: {current_style["bg"]}; border-radius: 4px; padding: 10px 12px; border-left: 3px solid {current_style["border"]};">{_rendered}</div>"""
+                    )
                     _advice_tabs_dict[tab_key] = advice_content
                 else:
                     tab_key = f"Dica {i + 1}"
@@ -434,9 +398,9 @@ def _(advice_emojis, advice_styles, mo):
                     _s = advice_item.get("s", "") if isinstance(advice_item, dict) else ""
                     advice_content = mo.md(f"""{_t}
 
-{_p}
+    {_p}
 
-{_s}""")
+    {_s}""")
                     _advice_tabs_dict[tab_key] = advice_content
 
         return _advice_tabs_dict
@@ -446,7 +410,7 @@ def _(advice_emojis, advice_styles, mo):
 
 @app.cell(hide_code=True)
 def _(year_tabs):
-    selected_year = int(year_tabs.value)
+    selected_year = int(str(year_tabs.value).split()[-1])
     return (selected_year,)
 
 
@@ -482,7 +446,7 @@ def _(parenting_advice, selected_year):
 @app.cell(hide_code=True)
 def _(advice_list_for_year, create_advice_tabs_dictionary):
     advice_tabs_dict = create_advice_tabs_dictionary(advice_list_for_year)
-    return (advice_tabs_dict,)
+    return
 
 
 @app.cell(hide_code=True)
@@ -501,9 +465,29 @@ def _(mo, year_tabs):
 
 
 @app.cell(hide_code=True)
-def _(advice_emojis, advice_list_for_year, advice_tabs_dict, mo):
+def _(advice_emojis, advice_list_for_year, advice_styles, mo):
     default_advice_tab = advice_emojis[0] if advice_list_for_year else "Info"
-    individual_advice_tabs = mo.ui.tabs(advice_tabs_dict, value=default_advice_tab)
+    individual_advice_tabs_dict = {}
+    if not advice_list_for_year:
+        individual_advice_tabs_dict["Info"] = mo.md("Nenhum conselho disponível para este estágio.")
+    else:
+        for ii, advice_item in enumerate(advice_list_for_year):
+            if ii < len(advice_emojis) and ii < len(advice_styles):
+                tab_key = advice_emojis[ii]
+            else:
+                tab_key = f"Dica {ii + 1}"
+
+            _t = advice_item.get("t", "") if isinstance(advice_item, dict) else str(advice_item)
+            _p = advice_item.get("p", "") if isinstance(advice_item, dict) else ""
+            _s = advice_item.get("s", "") if isinstance(advice_item, dict) else ""
+
+            individual_advice_tabs_dict[tab_key] = mo.md(f"""{_t}
+
+    {_p}
+
+    {_s}""")
+
+    individual_advice_tabs = mo.ui.tabs(individual_advice_tabs_dict, value=default_advice_tab)
     return (individual_advice_tabs,)
 
 
