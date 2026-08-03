@@ -37,7 +37,7 @@ repos:
         args: ["--verbose"]
 
   - repo: https://github.com/crate-ci/typos
-    rev: v1.48.0
+    rev: v1.49.0
     hooks:
       - id: typos
         exclude: ^\.gitignore|\.copier.answers$
